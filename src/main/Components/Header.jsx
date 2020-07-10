@@ -29,8 +29,8 @@ const styles = theme => ({
 function Header(props) {
     const { classes } = props;
     return (
-        <Grid container spacing={24} justify={'centre'} className={classes.wrapper}>
-            <Grid container spacing={24} justify={'centre'}>
+        <Grid container spacing={24} justify={'center'} className={classes.wrapper}>
+            <Grid container spacing={24} justify={'center'}>
                 <Nav />
             </Grid>
             <Grid container spacing={24}>

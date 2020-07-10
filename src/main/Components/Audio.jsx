@@ -16,7 +16,7 @@ function Audio(props) {
     const { classes } = props;
     return (
             <div style={classes.audio}>
-                <Grid container spacing={24} justify={'centre'}>
+                <Grid container spacing={24} justify={'center'}>
                     <AudioPlayer
                         src="https://s9.converto.io/download-file/zwXZbmwDyWGN7qkqvVPMcQm0pIajpwdE/file.mp3"
                         autoPlay={false}

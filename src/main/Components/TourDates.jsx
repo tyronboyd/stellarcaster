@@ -22,7 +22,7 @@ function TourDates(props) {
         <div className={classes.root}>
             <List component="nav">
                 {tourDates.map(date => (
-                    <ListItem button>
+                    <ListItem key={date}>
                         <ListItemIcon>
                             <DateRangeIcon />
                         </ListItemIcon>

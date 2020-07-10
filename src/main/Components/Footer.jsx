@@ -18,20 +18,21 @@ function Footer(props) {
     return (
         <div className={classes.layout}>
             <footer className={classes.footer}>
-                <Typography variant="h7" align="center" gutterBottom>
+                <Typography variant="h6" align="center" gutterBottom>
                     Stellarcaster (c) 2019
                 </Typography>
                 <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-                    <Link
-                        component="button"
-                        variant="body2"
-                        href={'https://www.reverbnation.com/stellarcaster'}> Reverb Nation
-                    </Link><br />
-                    <Link
-                        component="button"
-                        variant="body2"
-                        href={'https://www.facebook.com/Stellarcaster-125462951902/'}> Facebook Page
-                    </Link>
+                    <a
+                        // target="_blank"
+                        // component="button"
+                        // variant="body2"
+                        href='https://www.reverbnation.com/stellarcaster'> Reverb Nation
+                    </a><br />
+                    <a
+                        // component="button"
+                        // variant="body2"
+                        href='https://www.facebook.com/Stellarcaster-125462951902/'> Facebook Page
+                    </a>
                 </Typography>
             </footer>
         </div>

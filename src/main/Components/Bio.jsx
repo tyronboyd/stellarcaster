@@ -20,11 +20,11 @@ const styles = theme => ({
 });
 
 
-function Bio(props) {
+function Bio() {
     return (
         <Grid item xs={12} md={8}>
             <Typography variant="h6" gutterBottom>
-                Bio
+                Stellarcaster Biography 
             </Typography>
             <Divider />
             <Typography variant="subtitle1" align={'left'} paragraph gutterBottom>
