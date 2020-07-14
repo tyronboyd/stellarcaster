@@ -5,6 +5,7 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Divider from '@material-ui/core/Divider';
 import TourDates from './TourDates';
+import { Paper } from '@material-ui/core';
 
 const styles = theme => ({
     tourDates: {
@@ -24,6 +25,9 @@ function RightColumn(props) {
                 </Typography>
                 <Divider/>
                 <TourDates/>
+                <Paper className={classes.mainFeaturedPost}>
+                
+                </Paper>
             </div>
         </Grid>
     );

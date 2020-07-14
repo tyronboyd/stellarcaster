@@ -13,7 +13,9 @@ const styles = theme => ({
     mainFeaturedPost: {
         backgroundColor: theme.palette.grey[800],
         color: theme.palette.common.white,
-        marginBottom: theme.spacing.unit * 4,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        marginBottom: theme.spacing.unit * 4
     },
     mainFeaturedPostContent: {
         padding: `${theme.spacing.unit * 6}px`,
@@ -30,16 +32,16 @@ function Header(props) {
     const { classes } = props;
     return (
         <Grid container spacing={24} justify={'center'} className={classes.wrapper}>
-            <Grid container spacing={24} justify={'center'}>
+            {/* <Grid container spacing={24} justify={'center'}>
                 <Nav />
-            </Grid>
+            </Grid> */}
             <Grid container spacing={24}>
                 <Grid item md={12}>
-                <Paper className={classes.mainFeaturedPost}>
+                    <Paper className={classes.mainFeaturedPost}>
                         <div className={classes.mainFeaturedPostContent}>
                             <Typography component="h1" variant="h3" color="inherit" gutterBottom>
                                 Stellarcaster
-                            </Typography>
+                                </Typography>
                             <Typography component="h4" variant="h5" color="inherit" gutterBottom>
                                 Members
                             </Typography>

@@ -1,0 +1,60 @@
+Arguments: 
+  /usr/local/Cellar/node/14.3.0/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /Users/tboyd007/.sdkman/candidates/grails/current/bin:/Users/tboyd007/.jenv/shims:/Users/tboyd007/.jenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  14.3.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: self signed certificate in certificate chain
+      at TLSSocket.onConnectSecure (_tls_wrap.js:1486:34)
+      at TLSSocket.emit (events.js:315:20)
+      at TLSSocket._finishInit (_tls_wrap.js:921:8)
+      at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:695:12)
+
+npm manifest: 
+  {
+    "name": "geoplex-ppp",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@material-ui/core": "^3.9.2",
+      "@material-ui/icons": "^3.0.2",
+      "@types/react": "^16.8.6",
+      "markdown-to-jsx": "^6.9.1",
+      "material-ui": "^0.20.2",
+      "mui-audio-player": "^1.0.1",
+      "react": "^16.8.3",
+      "react-dom": "^16.8.3",
+      "react-scripts": "2.1.5"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
